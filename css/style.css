@@ -84,7 +84,7 @@
 
 #testimonial {
   color: #fff;
-  background-image: url(/images/phone.jpg);
+  background-image: url("/images/phone.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 0;
