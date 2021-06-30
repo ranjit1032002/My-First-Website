@@ -46,7 +46,7 @@
 }
 
 #banner {
-  background-image: url(./Banner.jpg);
+  background-image: url(../Banner.JPG);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -84,7 +84,7 @@
 
 #testimonial {
   color: #fff;
-  background-image: url(./phone.jpg);
+  background-image: url(../phone.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: 0;
