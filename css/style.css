@@ -1,218 +1,230 @@
-.section
-{
-    padding-top: 70px;
-    padding-bottom: 70px;
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
-.section h2.section-head
-{
-    color:#000;
+.section h2.section-head {
+  color: #000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section h2.section-head:after {
+  background: #e74c3c;
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+}
+
+#header {
+  color: #fff;
+  background: #e74c3c;
+}
+
+#menu {
+  padding: 0;
+  margin: 0;
+}
+#menu a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 10px;
+  position: sticky;
+  top: 0;
+}
+
+#logo {
+  font-size: 2rem;
+  margin: 15px;
+}
+
+#menu a:hover {
+  background-color: #c0392b;
+}
+
+#banner {
+  background-image: url(Banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-title {
+  padding-top: 5rem;
+}
+
+.banner-title h1 {
+  background: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding: 2px;
+  margin: 0;
+}
+
+.banner-title p.lead {
+  color: #fff;
+  background: rgba(231, 76, 60, 0.7);
+  padding: 2px;
+}
+
+.service-box {
+  text-align: center;
+}
+
+.service-box i.bi {
+  color: #c0392b;
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+
+#testimonial h2 {
+  color: #fff;
+}
+
+#testimonial {
+  color: #fff;
+  background-image: url(phone.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
+  padding: 50px 0;
+  position: relative;
+}
+
+#testimonial:before {
+  background: rgba(52, 73, 94, 0.7);
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial img {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+.recent img {
+  height: 150px;
+  width: 250px;
+}
+
+.recent .cal {
+  font-style: Arial;
+}
+
+.recent ic {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.recent .p {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.recent h4 {
+  color: #c0392b;
+  margin: 10px;
+}
+
+#footer-sidebar {
+  color: #fff;
+  background: #34495e;
+  padding: 20px 0;
+}
+
+.footer-widget h4:after {
+  content: "";
+  background: #fff;
+  display: block;
+  width: 50px;
+  height: 2px;
+  margin: 5px 0;
+}
+
+.latest-news p {
+  padding: 0;
+  margin: 0;
+}
+
+.latest-news a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.latest-news li {
+  margin-bottom: 3px;
+}
+
+#footer {
+  background: #2c3e50;
+  color: #fff;
+  padding: 10px 0;
+}
+
+#social-icons {
+  list-style-type: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#social-icons {
+  display: inline-block;
+  padding-left: 5px;
+}
+
+#social-icons li a {
+  color: #fff;
+  font-size: 23px;
+}
+
+@media (max-width: 768px) {
+  .testimonial {
     text-align: center;
-    margin-bottom:40px;
-}
+    margin-bottom: 30px;
+  }
 
-.section h2.section-head:after
-{
-    background:  #e74c3c; 
-    content: " ";
-    display: block;
-    width: 100px;
-    height: 3px;
-    margin: 20px auto;
-}
+  .footer-widget {
+    margin-bottom: 20px;
+  }
 
-#header
-{
-    color: #fff;
-    background: #e74c3c; 
-}
-
-#menu
-{
-    padding:0;
-    margin:0;  
-}
-#menu a
-{
-    display: inline-block; 
-    text-decoration: none;
-    color: #fff; 
-    padding:15px 10px; 
-    position: sticky;
-    top:0;
-}
-
-#logo
-{
-    font-size: 2rem;
-    margin:15px;
-} 
-#menu  a:hover
-{
-    background-color: #c0392b;
-} 
-#banner
-{
-    background-image:url('/images/Banner.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-
-.banner-title
-{
-    padding-top:5rem;
-}
-
-.banner-title h1
-{
-    background: rgba(255,255,255,0.8);
-    display: inline-block;
-    padding:2px;
-    margin: 0;
-}
-
-.banner-title p.lead
-{
-    color:#fff;
-    background: rgba(231,76,60,0.7);
-    padding:2px;
-} 
-
-.service-box
-{
+  #footer {
     text-align: center;
-}
+  }
 
-.service-box i.bi
-{
-    color: #c0392b;
-    font-size: 70px;
-    margin-bottom: 15px;
-}
-#testimonial h2{
-    color: #fff;
-}
-#testimonial{
-    color: #fff;
-    background-image: url('/images/phone.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x:0;
-    background-position-y:0 ;
-    padding: 50px 0;
-    position: relative;
-}
-#testimonial:before{
-    background: rgba(52,73,94,0.7);
-    content:" ";
-    position:absolute;
-    top:0;
-    width:100%;
-    height:100%;
-}
-.testimonial img{
-    border-radius:50px;
-    height:100px;
-    width:100px;
-}
-.recent img{
-    height:150px;
-    width:250px;
-}
-.recent .cal{
-    font-style:Arial;
+  #social-icons {
+    margin-top: 10px;
+  }
 
-}
-.recent ic{
-    color: #c0392b;
-    font-weight: bold;
-}
-.recent .p{
-    color: #c0392b;
-    font-weight: bold;
-}
-.recent h4{
-    color: #c0392b;
-    margin:10px;
-}
-#footer-sidebar{
-    color:#fff;
-    background:#34495e;
-    padding:20px 0;
-}
-.footer-widget h4:after{
-    content: "";
-    background: #fff;
-    display:block;
-    width: 50px;
-    height: 2px;
-    margin:5px 0;
-}
+  #logo {
+    text-align: center;
+    margin: 10px 0;
+  }
 
-.latest-news p{
-    
-   padding:0;
-   margin:0;
-}
-.latest-news a{
-    text-decoration: none;
-    color: #fff;
-}
-.latest-news li{
-    margin-bottom: 3px;
-}
-#footer{
-    background:#2c3e50;
-    color:#fff;
-    padding: 10px 0;
-}
-#social-icons{
-    list-style-type: none;
-    color: #fff;
-    margin:0;
-    padding:0;
-}
-#social-icons{
-    display:inline-block;
-    padding-left: 5px;
-}
-#social-icons li a{
-    color: #fff;
-    font-size:23px ;
-}
-@media(max-width:768px){
-    .testimonial{
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    .footer-widget{
-        margin-bottom:20px;
-    }
-    #footer{
-        text-align:center;
-    }
-    #social-icons{
-        margin-top: 10px;
-    }
-    #logo{
-        text-align: center;
-        margin: 10px 0;
-    }
-    #menu{
-        text-align: center;
-    }
-    .service-box{
-        margin-bottom: 30px;
-    }
-    .recent{
-        margin-bottom: 30px;
-    }
-    .section
-    {
+  #menu {
+    text-align: center;
+  }
+
+  .service-box {
+    margin-bottom: 30px;
+  }
+
+  .recent {
+    margin-bottom: 30px;
+  }
+
+  .section {
     padding-top: 40px;
     padding-bottom: 40px;
-    }
-    .banner-title{
-        padding-top:0;
-    }
+  }
+
+  .banner-title {
+    padding-top: 0;
+  }
 }
